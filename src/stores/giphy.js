@@ -13,7 +13,7 @@ export const useGiphyStore = defineStore('giphy', () => {
       const { data } = await axios.get('https://api.giphy.com/v1/gifs/trending', {
         params: {
           api_key: '603NX4IqZqCQZN4xpCDIYJDRNvsZVKep',
-          limit: 5,
+          limit: 50,
           offset: 1,
           rating: 'g',
           random_id: 'e826c9fc5c929e0d6c6d423841a282aa',
