@@ -1,0 +1,12 @@
+// app global css in SCSS form
+@import 'tailwindcss';
+
+.rounded-end {
+  border-radius: 0px 10px 0px 0px;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.text-light {
+  color: aliceblue;
+}
